@@ -1,0 +1,14 @@
+{
+  "transition_id": "demo-invalid-001",
+  "governing_basis_id": "ELYRIA_ONE_PROOF_V1",
+  "state": {
+    "admissibility_score": -1,
+    "capacity_margin": 25,
+    "authority_valid": true,
+    "constraint_continuity": "VALID"
+  },
+  "action": {
+    "type": "controlled_commit",
+    "requested_effect": "demo_side_effect"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "receipt_class": "execution_boundary_decision",
+  "timestamp": "2026-04-30T18:50:17Z",
+  "transition_id": "demo-valid-001",
+  "governing_basis_id": "ELYRIA_ONE_PROOF_V1",
+  "decision": "EXECUTE",
+  "reason": "ADMISSIBLE",
+  "proof": {
+    "admissibility_ok": true,
+    "capacity_ok": true,
+    "authority_ok": true,
+    "constraints_ok": true
+  },
+  "state_hash": "f595d91d267f03f437e2dfa1b91b5ba2600439d0b410d92ba26a329402fdfadf",
+  "action_hash": "f83e7ef475f665fc7181444323a117b4b991696c08922805c587d346a9522da1",
+  "input_hash": "09c23d2b18324acafc420b430db9bd335f1b34994d51169d748a06fe267c4d1b",
+  "side_effect_allowed": true,
+  "boundary": {
+    "decision_before_effect": true,
+    "fail_closed": true,
+    "receipt_proves": "boundary_decision_not_just_outcome"
+  },
+  "receipt_hash": "c08e15f7881aea5e3647fbc58b6d97168bda2aca3b127edea2968d84f266ab6d"
+}
