@@ -137,29 +137,17 @@ We evaluate on mechanism:
 decision at boundary → receipt → replay.
 >>>>>>> 79d5899 (Add NDA evaluation path with Samantha Revita and Terry Snyder authorship)
 
-## Evaluation & NDA
 
-This repository is a minimal public proof surface.
 
-For full evaluation (production corridors, authority model, custody chain, and internal enforcement logic), access is provided under NDA.
+## Visible Effect Proof
 
-Request access:
-- Samantha Revita · Terry Snyder
-- Email: SamanthaGreenwellRevita@gmail.com
-- Subject: "Elyria One Proof – NDA Request"
+EXECUTE creates a real artifact:
+python runner.py demo/valid_case.json && ls
+You will see: effect_result.txt
 
-Include:
-- Organization
-- Evaluation scope (what you want to test)
-- Environment (sandbox / API / on-prem)
+REFUSE blocks consequence:
+python runner.py demo/invalid_case.json && ls
+effect_result.txt is not present.
 
-What you’ll receive under NDA:
-- Controlled runnable bundle (one corridor)
-- Deterministic receipt schema + verifier
-- Replay harness
-- Audit-ready logs
-- Fail-closed test suite (negative cases)
-
-We evaluate on mechanism:
-decision at boundary → receipt → replay.
+This demonstrates control at the execution boundary, not post-hoc logging.
 
