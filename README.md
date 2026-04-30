@@ -105,4 +105,61 @@ Full implementation available under NDA.
 
 ---
 
+<<<<<<< HEAD
 **Run it. Verify it. Replay it.**
+=======
+Run it. Verify it. Replay it.
+
+## Evaluation & NDA
+
+This repository is a minimal public proof surface.
+
+For full evaluation (production corridors, authority model, custody chain, and internal enforcement logic), access is provided under NDA.
+
+Request access:
+- Samantha Revita · Terry Snyder
+- Email: SamanthaGreenwellRevita@gmail.com
+- Subject: "Elyria One Proof – NDA Request"
+
+Include:
+- Organization
+- Evaluation scope (what you want to test)
+- Environment (sandbox / API / on-prem)
+
+What you’ll receive under NDA:
+- Controlled runnable bundle (one corridor)
+- Deterministic receipt schema + verifier
+- Replay harness
+- Audit-ready logs
+- Fail-closed test suite (negative cases)
+
+We evaluate on mechanism:
+decision at boundary → receipt → replay.
+>>>>>>> 79d5899 (Add NDA evaluation path with Samantha Revita and Terry Snyder authorship)
+
+## Evaluation & NDA
+
+This repository is a minimal public proof surface.
+
+For full evaluation (production corridors, authority model, custody chain, and internal enforcement logic), access is provided under NDA.
+
+Request access:
+- Samantha Revita · Terry Snyder
+- Email: SamanthaGreenwellRevita@gmail.com
+- Subject: "Elyria One Proof – NDA Request"
+
+Include:
+- Organization
+- Evaluation scope (what you want to test)
+- Environment (sandbox / API / on-prem)
+
+What you’ll receive under NDA:
+- Controlled runnable bundle (one corridor)
+- Deterministic receipt schema + verifier
+- Replay harness
+- Audit-ready logs
+- Fail-closed test suite (negative cases)
+
+We evaluate on mechanism:
+decision at boundary → receipt → replay.
+
