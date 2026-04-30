@@ -151,3 +151,16 @@ effect_result.txt is not present.
 
 This demonstrates control at the execution boundary, not post-hoc logging.
 
+
+## Receipt Verification
+
+Verify a receipt hash locally:
+python - << 'PY'
+import json,hashlib,sys
+p="receipts/demo-valid-001_receipt.json"
+r=json.load(open(p))
+h=r["receipt_hash"]
+c=hashlib.sha256(json.dumps({k:v for k,v in r.items() if k!="receipt_hash"},sort_keys=True,separators=(",",":")).encode()).hexdigest()
+print("OK" if h==c else "MISMATCH", h)
+PY
+
