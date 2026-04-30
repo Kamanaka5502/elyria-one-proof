@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./elyria.png" alt="Elyria AI" width="700"/>
+</p>
+
 # Elyria One Proof
 
 > BOT proposes. Boundary decides. Only admitted consequence becomes real.
