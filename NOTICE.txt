@@ -1,0 +1,11 @@
+ELYRIA SYSTEMS-VA
+Elyria Systems — One Proof Walkthrough
+
+Copyright (c) 2026 ELYRIA SYSTEMS-VA, Samantha Revita, and Terry Snyder.
+All rights reserved.
+
+This repository contains a public-safe proof walkthrough only.
+
+It does not contain proprietary runtime implementation.
+
+VA / Veritas Aegis remains the foundation and enforcement lineage beneath the Elyria Systems product surface.
